@@ -212,7 +212,7 @@ main {
 .contentainer.made {
   display: none;
   flex-direction: column;
-  gap: 2.5em;
+  gap: 4em;
   align-items: center;
   margin-top: 2em;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
@@ -223,7 +223,7 @@ main {
   opacity: 1;
 }
 
-.content-1 {
+.content-1, .content-2 {
   display: flex;
   gap: 2em;
 }
@@ -292,6 +292,10 @@ main {
   border-radius: 40em;
   position: absolute;
   left: -10em;
+}
+
+.tool-display.odd > div {
+  left: 0em;
 }
 
 /* LEARNED */
