@@ -78,7 +78,7 @@ header {
 }
 
 .dot-container p {
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Google Sans Code', Arial, Helvetica, sans-serif;
   color: hsl(0, 0%, 90%);
   margin: 0;
   font-size: 2em;
@@ -88,31 +88,31 @@ header {
 }
 
 .big-w, .big-web, .big-d, .big-dev {
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Google Sans Code', Arial, Helvetica, sans-serif;
 }
 
 .big-w {
   font-size: 5em;
   left: 13.6em;
-  top: 1.82em;
+  top: 1.9em;
 }
 
 .big-web {
   font-size: 2.5em;
-  left: 29em;
+  left: 28.4em;
   top: 4.75em;
 }
 
 .big-d {
   font-size: 5em;
-  left: 13.7em;
+  left: 13.6em;
   top: 2.8em;
 }
 
 .big-dev {
   font-size: 2.5em;
-  left: 28.8em;
-  top: 6.69em;
+  left: 28.4em;
+  top: 6.6em;
 }
 
 main {
@@ -127,7 +127,7 @@ main {
 }
 
 .nav > div {
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Google Sans Code', Arial, Helvetica, sans-serif;
   background-color: hsl(235, 100%, 11%);
   color: hsl(0, 0%, 90%);
   display: flex;
@@ -141,7 +141,7 @@ main {
 
 .nav-fix > div {
   position: fixed;
-  background-color: hsla(235, 100%, 11%, .5);
+  background-color: hsla(235, 100%, 11%, .6);
   backdrop-filter: blur(2px);
   top: 0;
   left: 0;
