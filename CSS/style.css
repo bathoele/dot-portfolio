@@ -252,24 +252,15 @@ main {
 
 .proj-title {
   position: absolute;
+  background-color: orange;
   width: 50%;
   text-align: center;
-  top: 36%;
-  left: 50%;
+  top: 22em;
+  right: 9.5em;
+  border-radius: 0 2em 2em 0;
   transform: translate(-50%, -50%);
   color: white;
-  display: none;
   pointer-events: none;
-}
-
-.proj-title.hover {
-  display: block;
-}
-
-.proj-img > img:hover {
-  opacity: 50%;
-  scale: 1.02;
-  filter: blur(2px);
 }
 
 .project-display > p {
