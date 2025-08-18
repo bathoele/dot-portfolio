@@ -240,7 +240,7 @@ main {
 .proj-img {
   display: block;
   height: 25em;
-  border-radius: 1em;
+  border-radius: .5em;
   overflow: hidden;
   margin-bottom: 3em;
 }
@@ -252,15 +252,21 @@ main {
 
 .proj-title {
   position: absolute;
-  background-color: orange;
   width: 50%;
   text-align: center;
-  top: 22em;
-  right: 9.5em;
-  border-radius: 0 2em 2em 0;
+  top: 24em;
+  right: 0%;
+  border-radius: 1em 1em 0 0;
   transform: translate(-50%, -50%);
-  color: white;
   pointer-events: none;
+  transition: all .2s ease-in;
+  opacity: 0;
+  background-color: hsl(235, 90%, 69%);
+  color: white;
+}
+
+.proj-title.active {
+  opacity: 1;
 }
 
 .project-display > p {

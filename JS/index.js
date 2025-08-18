@@ -1,8 +1,8 @@
 
 $('.proj-img').hover(() => {
-  $('.proj-title').addClass('hover');
+  $('.proj-title').addClass('active');
 }, () => {
-  $('.proj-title').removeClass('hover');
+  $('.proj-title').removeClass('active');
 })
 
 const changeTainer = (el) => {
