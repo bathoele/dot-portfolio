@@ -282,7 +282,7 @@ main {
   overflow: hidden;
 }
 
-.tool-display > div {
+.circle {
   width: 25em;
   height: 25em;
   background-color: #533C00;
@@ -291,7 +291,12 @@ main {
   left: -10em;
 }
 
-.tool-display.odd > div {
+.circle-h1 {
+  position: absolute;
+  z-index: 5;
+}
+
+.tool-display.odd > .circle {
   left: 0em;
 }
 
