@@ -285,15 +285,20 @@ main {
 .circle {
   width: 25em;
   height: 25em;
-  background-color: #533C00;
+  background-color: hsl(43, 100%, 20%);
   border-radius: 40em;
   position: absolute;
   left: -10em;
 }
 
-.circle-h1 {
+.tool-display > ul {
   position: absolute;
   z-index: 5;
+  list-style-type: none;
+  text-indent: none;
+  padding: 1em;
+  top: 1em;
+  color: hsl(0, 0%, 90%);
 }
 
 .tool-display.odd > .circle {
