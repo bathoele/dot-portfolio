@@ -302,10 +302,18 @@ main {
   color: hsl(0, 0%, 90%);
 }
 
+.tool-display.odd > ul {
+  width: 100%;
+}
+
 .tool-display li {
   font-size: 1.2em;
   display: flex;
   gap: .4em;
+}
+
+.tool-display.odd li {
+  justify-content: end;
 }
 
 .tool-display img {
