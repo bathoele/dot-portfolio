@@ -376,14 +376,18 @@ main {
 
 .tech-cont {
   border-left: #533C00 solid 3px;
-  width: 50%;
+  width: 40%;
   padding-left: 1em;
   font-size: 1.2em;
 }
 
 .tech-cont > div {
-  border: solid white;
+  border-radius: .1em;
+  color: #000539;
+  font-weight: 500;
+  padding: .4em .6em;
   float: left;
   margin-right: 1em;
   margin-bottom: 1em;
+  background-color: darkgoldenrod;
 }
