@@ -258,7 +258,7 @@ main {
   right: 0%;
   border-radius: 1em 1em 0 0;
   transform: translate(-50%, -50%);
-  pointer-events: none;
+  pointer-events: fill;
   transition: all .2s ease-in;
   opacity: 0;
   background-color: hsl(235, 81%, 60%);
@@ -267,6 +267,11 @@ main {
 
 .proj-title.active {
   opacity: 1;
+}
+
+.proj-title > h1 {
+  text-decoration: underline;
+  pointer-events: none;
 }
 
 .project-display > p {
