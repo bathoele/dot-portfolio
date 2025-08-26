@@ -381,6 +381,9 @@ main {
   font-size: 1.2em;
 }
 
-.tech-cont > h2 {
-  margin: 0;
+.tech-cont > div {
+  border: solid white;
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
 }
