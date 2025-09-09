@@ -1,9 +1,8 @@
 
-$('.proj-img').hover(() => {
-  $('.proj-title').addClass('active');
-}, () => {
-  $('.proj-title').removeClass('active');
-})
+$('.proj-img').on('mouseover', () => {
+  alert(this.Id);
+  
+});
 
 const changeTainer = (el) => {
   $('.contentainer').removeClass('active');
@@ -41,7 +40,6 @@ $('.nav-link').on("click", (e) => {
 
 $(document).on('scroll', () => {
   let navOffset = $('.nav').offset();
-  console.log(window.scrollY, navOffset.top);
   if (window.scrollY >= navOffset.top) {
     $('.nav').addClass('nav-fix');
   } else {
