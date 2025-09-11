@@ -1,9 +1,3 @@
-
-$('.proj-img').on('mouseover', () => {
-  alert(this.Id);
-  
-});
-
 const changeTainer = (el) => {
   $('.contentainer').removeClass('active');
 
